@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		72E987EE1B90A34E007CF380 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E987ED1B90A34E007CF380 /* AppDelegate.swift */; };
-		72E987F01B90A34E007CF380 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E987EF1B90A34E007CF380 /* ViewController.swift */; };
 		72E987F31B90A34E007CF380 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72E987F11B90A34E007CF380 /* Main.storyboard */; };
 		72E987F51B90A34E007CF380 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72E987F41B90A34E007CF380 /* Images.xcassets */; };
 		72E987F81B90A34E007CF380 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72E987F61B90A34E007CF380 /* LaunchScreen.xib */; };
 		72E988041B90A34E007CF380 /* RPSLSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E988031B90A34E007CF380 /* RPSLSTests.swift */; };
+		72E9880E1B90AFF0007CF380 /* RPSLSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E9880D1B90AFF0007CF380 /* RPSLSViewController.swift */; };
+		72E988101B90E359007CF380 /* RPSLSPageItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E9880F1B90E359007CF380 /* RPSLSPageItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		72E987E81B90A34E007CF380 /* RPSLS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPSLS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72E987EC1B90A34E007CF380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72E987ED1B90A34E007CF380 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		72E987EF1B90A34E007CF380 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		72E987F21B90A34E007CF380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		72E987F41B90A34E007CF380 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		72E987F71B90A34E007CF380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		72E987FD1B90A34E007CF380 /* RPSLSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RPSLSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72E988021B90A34E007CF380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72E988031B90A34E007CF380 /* RPSLSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPSLSTests.swift; sourceTree = "<group>"; };
+		72E9880D1B90AFF0007CF380 /* RPSLSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPSLSViewController.swift; sourceTree = "<group>"; };
+		72E9880F1B90E359007CF380 /* RPSLSPageItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPSLSPageItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +80,12 @@
 			isa = PBXGroup;
 			children = (
 				72E987ED1B90A34E007CF380 /* AppDelegate.swift */,
-				72E987EF1B90A34E007CF380 /* ViewController.swift */,
 				72E987F11B90A34E007CF380 /* Main.storyboard */,
 				72E987F41B90A34E007CF380 /* Images.xcassets */,
 				72E987F61B90A34E007CF380 /* LaunchScreen.xib */,
 				72E987EB1B90A34E007CF380 /* Supporting Files */,
+				72E9880D1B90AFF0007CF380 /* RPSLSViewController.swift */,
+				72E9880F1B90E359007CF380 /* RPSLSPageItemViewController.swift */,
 			);
 			path = RPSLS;
 			sourceTree = "<group>";
@@ -212,8 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72E987F01B90A34E007CF380 /* ViewController.swift in Sources */,
 				72E987EE1B90A34E007CF380 /* AppDelegate.swift in Sources */,
+				72E988101B90E359007CF380 /* RPSLSPageItemViewController.swift in Sources */,
+				72E9880E1B90AFF0007CF380 /* RPSLSViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
